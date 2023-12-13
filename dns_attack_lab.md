@@ -27,3 +27,5 @@
 	<li>由于UDP的无连接性，可以实现反射攻击的目的，在IP层伪造源IP为被攻击机的IP地址10.61.1.157，目的IP就是DNS服务器的IP地址10.61.1.175;</li>
 	<li>DNS服务器的服务器端口是53，在UDP层将目的端口设置为53;</li>
 	<li>查询域名是www.test.com，查询的类型为TXT，也就是请求查询我们在DNS服务器上恶意设置的TXT记录，实现放大目的。</li>
+
+<iframe src="//player.bilibili.com/player.html?aid=725064817&bvid=BV13S4y1S7u9&cid=558430612&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
